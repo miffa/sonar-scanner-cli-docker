@@ -1,4 +1,5 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
+#FROM adoptopenjdk/openjdk11:alpine-jre
+FROM adoptopenjdk/openjdk11:aarch64-ubi-jre11u-nightly
 
 ARG SONAR_SCANNER_HOME=/opt/sonar-scanner
 ARG SONAR_SCANNER_VERSION
